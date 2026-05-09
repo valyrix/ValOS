@@ -1,1 +1,40 @@
+@App "Accueil ValOS"
 
+#Hero
+  title: "Bienvenue sur ValOS"
+  text: "Créer des applications comme on écrit une fiche."
+  button: "Commencer"
+
+#Text
+  value: "ValOS est un système web expérimental open-source utilisant le langage ValMark et des ValBlocks simples à modifier."
+
+#Card
+  title: "Créer une application"
+  text: "Utilise l’éditeur intégré pour créer tes propres applications ValMark."
+
+#Button
+  text: "Ouvrir l’éditeur"
+  action: open("apps/editor.val")
+
+#Card
+  title: "Wiki"
+  text: "Créer et organiser des fiches dans ValOS."
+
+#Button
+  text: "Ouvrir le Wiki"
+  action: open("apps/wiki.val")
+
+#Card
+  title: "Paramètres"
+  text: "Personnaliser ValOS et tester les futures fonctionnalités."
+
+#Button
+  text: "Ouvrir les paramètres"
+  action: open("apps/settings.val")
+
+#Text
+  value: "Version actuelle : ValOS Alpha 0.2"
+
+#Card
+  title: "Vision du projet"
+  text: "ValOS cherche à rendre la création d’applications simple, lisible et accessible grâce aux ValBlocks."
