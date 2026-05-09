@@ -1,0 +1,36 @@
+@App "Calculatrice"
+
+#Hero
+  title: "Calculatrice ValOS"
+  text: "Une application simple pour tester les futures interactions ValBlocks."
+
+#Text
+  value: "Cette version sert de base visuelle. La logique de calcul pourra être ajoutée dans le moteur ValOS."
+
+#Card
+  title: "Affichage"
+  text: "0"
+
+#Button
+  text: "1"
+  action: input("1")
+
+#Button
+  text: "2"
+  action: input("2")
+
+#Button
+  text: "3"
+  action: input("3")
+
+#Button
+  text: "+"
+  action: input("+")
+
+#Button
+  text: "="
+  action: calculate()
+
+#Button
+  text: "Effacer"
+  action: clear()
